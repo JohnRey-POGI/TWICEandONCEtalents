@@ -1,0 +1,224 @@
+#postcontainerenter {
+    flex: 1;
+    display: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 700px;
+    height: 100px;
+    margin-top : 220px;
+    margin-bottom: 20px;
+    padding : 10px;
+    border: 2px solid #e3e3e3;/**/
+    background-color: lightgray;
+    border-radius: 40px;
+    z-index: 3;
+}
+#postinputtext
+{
+    height: 50px;
+    width: 80%;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+#userpostcontent {
+    z-index: 3;
+    text-align: left;
+    width: 500px;
+    height: auto;
+    margin : 5px auto;
+    padding : 10px;
+    border: 2px solid #e3e3e3;/**/
+    background-color: lightgray;
+    border-radius: 20px;
+    transition: 0.5s;
+    background: linear-gradient(to right top, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+}
+
+.likecommentbutton
+{
+    height: 30px;
+    text-align: center;
+    float: left;
+    width: 45%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    background-color: #dedede;
+    padding: 5px;
+    margin-left: 10px;
+}
+.likecommentbutton:hover
+{
+    background-color: white;
+}
+
+.likedcommentbutton {
+    color: blue;
+    height: 30px;
+    text-align: center;
+    float: left;
+    width: 45%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    background-color: #ade8ff;
+    padding: 5px;
+    margin-left: 10px;
+}
+.likedcommentbutton:hover {
+    background-color: white;
+    color: black;
+}
+
+#postpicture {
+    height: 30px;
+    text-align: center;
+    float: left;
+    width: 90px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    background-color: #d1d1d1;
+    padding: 5px;
+    margin-left: 20px;
+}
+#userpost {
+    height: 30px;
+    text-align: center;
+    float: left;
+    width: 80%;  /*464px;*/
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    background-color: #d1d1d1;
+    padding: 5px;
+    margin-left: 20px; /*5px;*/
+    transition: 0.5s;
+}
+#postpicture:hover {
+    background-color: white;
+}
+#userpost:hover {
+    background-color: white;
+}
+#MoreUserPost {
+    text-align: center;
+    width: 500px;
+    margin : 10px auto;
+    margin-bottom: 20px;
+    padding : 10px;
+    border: 2px solid #e3e3e3;
+    height: 40px;
+    text-item: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+    background-color: #d1d1d1;
+    background: linear-gradient(to right top, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    z-index: 4;
+}
+#MoreUserPost:hover {
+    background-color: white;
+    color: black;
+}
+.ReplyComment{
+    border-radius: 40px;
+    max-width: 85%;
+    transition: 0.5s;
+}
+#commentImg{
+     float:left;
+     height:45px;
+     max-width:45px;
+     border-radius:50px;
+     margin-top:7px;
+     margin-right:10px;
+     margin-left: 10px;
+}
+#mypostImg{
+    float: left;
+    height: 50px;
+    max-width: 50px;
+    border-radius: 100px;
+}
+#myinputImg{
+    float:left;
+    height:100px;
+    max-width:100px;
+    border-radius: 100px;
+}
+.commentbtncss{
+    opacity: 0.3;
+    height: 30px;
+    max-width: 30px;
+    margin-left: -40px;
+    font-size: 33px;
+    cursor: pointer;
+    position: absolute;
+    margin-top:  13px;
+    /*display: block;
+     
+    float: right;*/
+}
+.commentbtncss:hover{
+    opacity: 0.8;
+}
+#viewmorecomment{
+    text-align: center;
+    cursor: pointer;
+}
+#viewmorecomment:hover{
+    background-color: white;
+}
+@media screen and (max-width: 775px) {
+    #postcontainerenter {
+        width: 500px;
+    }
+    #myinputImg{
+        height:80px;
+        max-width:80px;
+        margin-top: 7px;
+    }
+    #postpicture {
+        margin-left: 10px;
+    }
+    #userpost {
+        width: 350px;/*305px;*/
+    }
+}
+@media screen and (max-width: 575px) {
+    #userpostcontent {
+        width: 350px;
+    }
+    .likecommentbutton {
+        width: 48%;
+        margin-left: 5px;
+    }
+    .likedcommentbutton {
+        width: 48%;
+        margin-left: 5px;
+    }
+    .replyComment{
+        max-width: 250px;
+    }
+    #postcontainerenter {
+        width: 350px;
+    }
+    #myinputImg{
+        height:60px;
+        max-width:60px;
+        margin-top: 18px;
+    }
+    #userpost {
+        width: 220px;/*178px*/
+    }
+    #MoreUserPost {
+        width: 350px;
+    }
+}

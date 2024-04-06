@@ -1,0 +1,26 @@
+.usernamepassinput{
+    border-radius: 30px;
+    font-size: 20px;
+    height: 40px;
+    max-width: 60%;
+}
+
+#saveprofilebtn{
+    text-align: center;
+    width: 80%;
+    margin : 0px auto;
+    padding : 10px;
+    border: 2px solid #e3e3e3;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: block;
+    background-color: #d1d1d1;
+}
+#saveprofilebtn:hover{
+    background-color: white;
+    color: black;
+}
+
+
